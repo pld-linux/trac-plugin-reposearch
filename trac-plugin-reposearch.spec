@@ -10,6 +10,9 @@ Source0:	http://trac-hacks.org/changeset/latest/reposearchplugin?old_path=/&form
 # Source0-md5:	8e2e52bfce53892409da7f9ef17f228d
 URL:		http://trac-hacks.org/wiki/RepoSearchPlugin
 BuildRequires:	python-devel
+BuildRequires:	python-modules
+BuildRequires:	python-setuptools
+BuildRequires:	rpm-pythonprov
 BuildRequires:	unzip
 Requires:	trac >= %{trac_ver}
 BuildArch:	noarch
